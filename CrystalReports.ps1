@@ -1,8 +1,7 @@
 ﻿param(
-	$format
-	,$destination
-	,$source
-    ,$attachment
+     $format
+    ,$destination
+    ,$source
     ,$smtp
     ,$to
     ,$from
@@ -44,7 +43,6 @@ $body = '
     <div>See attached report.</div>
 </body>
 </html>'
-$subject = "Crystal Report attached"
  
 $secpasswd = ConvertTo-SecureString "$password" -AsPlainText -Force
 $mycreds = New-Object System.Management.Automation.PSCredential ($user, $secpasswd)
