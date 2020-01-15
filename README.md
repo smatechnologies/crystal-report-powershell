@@ -21,7 +21,7 @@ Parameters:
 
 Example:
 ```
-powershell.exe -ExecutionPolicy Bypass -File "C:\mypowershell.ps1" -source "C:\MyCrystalReport.rpt" -format "pdf" -destination "C:\Destination\MyNewReport" -to "myemail@email.com" -password "12345"
+powershell.exe -ExecutionPolicy Bypass -File "C:\mypowershell.ps1" -source "C:\MyCrystalReport.rpt" -format "PortableDocFormat" -destination "C:\Destination\MyNewReport" -to "myemail@email.com" -password "12345"
 ```
 
 # Disclaimer
