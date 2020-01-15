@@ -2,8 +2,8 @@
 This script shows a simple example of how PowerShell can generate a Crystal Report into other formats and then sends an HTML email with the file as an attachment.
 
 # Prerequisites
-PowerShell v5.1+
-<a href url="https://www.sap.com/cmp/td/sap-crystal-reports-visual-studio-trial.html">SAP Crystal Reports for Visual Studio</a>
+* PowerShell v5.1+
+* <a href url="https://www.sap.com/cmp/td/sap-crystal-reports-visual-studio-trial.html">SAP Crystal Reports for Visual Studio</a>
 
 # Instructions
 Parameters:
